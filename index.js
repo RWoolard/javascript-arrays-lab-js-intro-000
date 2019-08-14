@@ -23,4 +23,3 @@ var appendKitten = (name) => {
 var prependKitten = (name) => {
   var newKittens = kittens.unshift(name);
 }
-

@@ -28,7 +28,7 @@ var prependKitten = (name) => {
 
 var removeLastKitten = () => {
   var newKitten = kittens;
-  newKitten.slice(-1);
+  newKitten.pop();
   return newKitten;
 }
 
